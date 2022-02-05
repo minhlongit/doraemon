@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+
+/* reset
+   =================================================================== */
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,p,blockquote,th,td,article,section,aside,header,nav{
+	margin:0;
+	padding:0;
+}
+
+address,caption,cite,code,dfn,var{
+	font-style:normal;
+}
+
+table{
+	border-collapse:collapse;
+	border-spacing:0;
+	font-size:100%;
+}
+
+object,embed{
+	vertical-align:top;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-size:100%;
+}
+h1{
+	line-height:1.5em;
+}
+img,abbr,acronym,fieldset,hr{
+	border:0;
+}
+
+li{
+	list-style-type:none;
+}
+
+p{
+	margin:0;
+	padding:0;
+}
+
+/* form */  
+button,fieldset,form,input,label,legend,select,textarea{
+	font-size:100%;
+}
+input{
+	vertical-align: bottom;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+         -o-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+            box-sizing: border-box;
+}
+/* html,body
+   =================================================================== */
+html,body{
+	margin:0;
+	padding:0;	
+}
+body{
+	font-size:12px;
+	line-height:1.4;
+	font-family: "游ゴシック体","YuGothic","游ゴシック","Yu Gothic","ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ","Meiryo","ＭＳ Ｐゴシック",Helvetica,Arial,sans-serif;
+	text-align:left;
+	font-weight:bold;
+	color:#000;
+	 -webkit-text-size-adjust: none;
+	 border:none;
+	background: #dbdcdc;
+	overflow-x: hidden;
+}
+body .font {
+	font-family : "ヒラギノ丸ゴ Pro W4", "Hiragino maru Gothic Pro", "HG丸ｺﾞｼｯｸM-PRO","Verdana","Osaka",sans-serif;
+}
+.preloader {
+	background:url(../img/common/loading_common.gif) no-repeat center center;
+	background-size: 30px auto;
+	display:block;
+}
+.shadow {
+	box-shadow: 1px 1px 0 0 rgba(0,0,0,0.2),1px 1px 0 0 rgba(0,0,0,0.2) inset ;	
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+
+}
+/* リンク設定
+   =================================================================== */
+a{
+/*\*/
+   overflow: hidden;
+   display:block;
+/**/
+}
+
+a:link {
+	color:#000;
+	text-decoration:none;
+}
+
+a:visited {
+	color:#000;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#000;
+	text-decoration:underline;
+}
+
+
+/* clear
+   =================================================================== */
+/* float */
+.clearfix:after{
+content:".";
+display:block;
+height:0;
+clear:both;
+visibility:hidden;
+}
+.clearfix{
+display:inline-block;
+}
+/* Hides from IE-mac \*/
+*html .clearfix{
+height:1%;
+}
+.clearfix{
+display:block;
+}
+/* End hide from IE-mac */
+
+@media only screen and (max-width: 940px) {
+	body {
+		line-height: 1.6;
+	}
+}
